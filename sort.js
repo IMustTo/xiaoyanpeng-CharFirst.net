@@ -1,5 +1,4 @@
-//自由驱动工作室
-//作者：林鑫
+
 $(function(){
         var Initials=$('.initials');
         var LetterBox=$('#letter');
@@ -107,6 +106,9 @@ function initials() {//公众号排序
                 break;
             case "M":
                 $('#M').after(SortList.eq(i));
+                break;
+             case "N":
+                $('#N').after(SortList.eq(i));
                 break;
             case "O":
                 $('#O').after(SortList.eq(i));
